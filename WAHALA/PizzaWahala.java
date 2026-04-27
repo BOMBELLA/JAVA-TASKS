@@ -8,7 +8,7 @@ import java.util.Scanner;
        
 
                      System.out.println("""
-           ======IYA ARAMIDE PIZZA HUT====== 
+           ======IYA ARAMIDE PIZZA JOINT====== 
             Pizza Type       Number of Slices        Price per Box   
             1.Sapa Size            4                     #2500      
             2.Small Money          6                     #2900      
