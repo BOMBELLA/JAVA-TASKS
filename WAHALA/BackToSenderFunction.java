@@ -1,10 +1,10 @@
 public class BackToSenderFunction{
-     public static long getDailyWage(int successfulDeliveries){
+     public static int getDailyWage(int successfulDeliveries){
 
 
               
               int  basePay = 5000;   
-              long amountPerParcel = 0;
+              int amountPerParcel = 0;
 
               if(successfulDeliveries < 50){
                 amountPerParcel = 160;     
@@ -26,7 +26,7 @@ public class BackToSenderFunction{
                          amountPerParcel = 500;
 
                } 
-              long numberOfRidersDailyPayment = (amountPerParcel * successfulDeliveries) + basePay;
+              int numberOfRidersDailyPayment = (amountPerParcel * successfulDeliveries) + basePay;
 
               return numberOfRidersDailyPayment;
               
