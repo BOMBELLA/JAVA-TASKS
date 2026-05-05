@@ -4,17 +4,24 @@ public class TaskOne{
 
 
        public static void main(String[]args){
-
-     
       Scanner userInput = new Scanner(System.in);
 
-     System.out.println("Enter ten scores :");
+       int [] numbers = new int [10];
+
+       for(int i = 0; i < 10; i++){
+
+     System.out.println("Enter score :");
 
        int score = userInput.nextInt();
 
-        int [] numbers = new int [10];
+         
+       numbers[i] = score;
+
+}
     
-              
+           for(int i = 0;i < 10; i++){
+            System.out.println(numbers[i] + " ");
+}  
 
 
 
